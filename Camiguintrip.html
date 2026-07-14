@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camiguin Adventure - 3 Days 2 Nights</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#f4f9ff;
+color:#333;
+}
+
+header{
+height:70vh;
+background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+header h1{
+font-size:55px;
+text-shadow:2px 2px 10px black;
+}
+
+header p{
+font-size:22px;
+margin-top:15px;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:40px 0;
+}
+
+.hotel{
+background:white;
+padding:30px;
+border-radius:15px;
+display:flex;
+gap:30px;
+align-items:center;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+margin-bottom:40px;
+}
+
+.hotel img{
+width:350px;
+border-radius:15px;
+}
+
+.timeline{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:30px;
+}
+
+.day{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.day:hover{
+transform:translateY(-8px);
+}
+
+.day img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.day-content{
+padding:20px;
+}
+
+.day h2{
+color:#0099cc;
+margin-bottom:15px;
+}
+
+ul{
+padding-left:20px;
+line-height:2;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#0099cc;
+color:white;
+margin-top:40px;
+}
+.map-btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#00AEEF;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.map-btn:hover{
+    background:#0085c7;
+}
+.destination-img{
+    width:100%;
+    max-width:800px;
+    height:400px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    display:block;
+    margin:20px auto;
+}
+.destination-img {
+    width: 350px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.destination-img:hover {
+    transform: scale(1.05);
+}
+
+.restaurant-list{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+
+.restaurant-card{
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    background:white;
+    padding:12px;
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+
+.restaurant-card img{
+    width:90px;
+    height:90px;
+    object-fit:cover;
+
+    border-radius:15px;
+}
+
+
+.restaurant-card h4{
+    margin:0;
+    color:#0099cc;
+}
+
+
+.restaurant-card p{
+    margin-top:5px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<div>
+<h1>Camiguin Island Adventure</h1>
+<p>3 Days • 2 Nights</p>
+</div>
+</header>
+
+<div class="container">
+
+<div class="hotel">
+
+<img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80">
+
+<div>
+<h2>Accommodation</h2>
+
+<h3>Ziel Hotel</h3>
+
+<p>
+Your home during your Camiguin vacation.
+Conveniently located in Mambajao, making it easy to explore White Island,
+Katibawasan Falls, Ardent Hot Spring, Sunken Cemetery, and many more attractions.
+</p>
+<a
+    href="https://maps.google.com/?q=Ziel+Hotel+Camiguin"
+    target="_blank"
+    class="map-btn">
+    📍 Open in Google Maps
+</a>
+</div>
+
+</div>
+
+<div class="timeline">
+
+<div class="day">
+
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80">
+
+<div class="day-content">
+
+<h2>Day 1</h2>
+
+<ul>
+<li>📍Arrival at Benoni Port</li>
+	<a href="https://maps.google.com/?q=Benoni+Port+Camiguin" target="_blank">
+   	 <img src="C:\Users\cvillaseca\Desktop\CamiguinAdv\benoni.jpg"
+          alt="Benoni Port"
+          class="destination-img">
+	</a>
+
+<li>🏨 Check-in at Ziel Hotel</li>
+	<a href="https://maps.google.com/?q=Benoni+Port+Camiguin" target="_blank">
+   	 	<img src="C:\Users\cvillaseca\Desktop\CamiguinAdv\Ziel.jpg"
+          	 alt="Ziel Hotel"
+         	 class="destination-img">
+	</a>
+
+<li>⛪Old Church Ruins</li>
+	<a href="https://maps.google.com/?q=Old+Church+Ruins+Catarman+Camiguin" target="_blank">
+   	 	<img src="C:\Users\cvillaseca\Desktop\CamiguinAdv\old church ruins.jpg"
+          	 alt="White Island"
+         	 class="destination-img">
+	</a>
+
+<li>🌋Walkway to the Old Volcano</li>
+	<a href="https://maps.google.com/?q=Walkway+to+the+Old+Volcano+Camiguin" target="_blank">
+   	 	<img src="C:\Users\cvillaseca\Desktop\CamiguinAdv\walkway.jpg"
+          	 alt="Wlakway"
+         	 class="destination-img">
+	</a>
+
+<li>🌅Sunset at Sunken Cemetery</li>
+	<a href="https://maps.google.com/?q=Sunken+Cemetery+Camiguin" target="_blank">
+   	 	<img src="C:\Users\cvillaseca\Desktop\CamiguinAdv\sunken.jpg"
+          	 alt="Sunken"
+         	 class="destination-img">
+	</a>
+
+<li>Dinner in Mambajao</li>
+ <div class="restaurant-list">
+
+    <div class="restaurant-card">
+        <a href="https://maps.google.com/?q=La+Dolce+Vita+Mambajao+Camiguin" target="_blank">
+            <img src="C:\Users\cvillaseca\Desktop\CamiguinAdv\ladolce.jpg" alt="La Dolce Vita">
+        </a>
+
+        <div>
+            <h4>🍕 La Dolce Vita</h4>
+            <p>Italian Food & Pizza</p>
+        </div>
+    </div>
+
+
+    <div class="restaurant-card">
+        <a href="https://maps.google.com/?q=Guerrera+Restaurant+Camiguin" target="_blank">
+            <img src="C:\Users\cvillaseca\Desktop\CamiguinAdv\\guerrera.jpg" alt="Guerrera Restaurant">
+        </a>
+
+        <div>
+            <h4>🍜 Guerrera Restaurant</h4>
+            <p>Asian & Filipino Cuisine</p>
+        </div>
+    </div>
+
+
+    <div class="restaurant-card">
+        <a href="https://maps.google.com/?q=Casa+Roca+Inn+Camiguin" target="_blank">
+            <img src="C:\Users\cvillaseca\Desktop\CamiguinAdv\casaroca.jpg" alt="Casa Roca Inn">
+        </a>
+
+        <div>
+            <h4>🍽️ Casa Roca Inn</h4>
+            <p>Filipino & International Food</p>
+        </div>
+    </div>
+
+</div>
+
+</ul>
+</ul>
+
+</div>
+
+</div>
+
+<div class="day">
+
+<img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80">
+
+<div class="day-content">
+
+<h2>Day 2</h2>
+
+<ul>
+<li>Katibawasan Falls</li>
+<li>Ardent Hot Spring</li>
+<li>Tuasan Falls</li>
+<li>Soda Water Pool</li>
+<li>Local Lanzones Farm</li>
+<li>Dinner & Souvenir Shopping</li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="day">
+
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80">
+
+<div class="day-content">
+
+<h2>Day 3</h2>
+
+<ul>
+<li>Breakfast</li>
+<li>Check-out</li>
+<li>Old Spanish Church Ruins</li>
+<li>Free Time</li>
+<li>Airport Transfer</li>
+<li>Fly Home</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<h2>Have a Wonderful Camiguin Adventure!</h2>
+<p>Created with ❤️ for your 3D2N Trip</p>
+
+</footer>
+
+</body>
+</html>
