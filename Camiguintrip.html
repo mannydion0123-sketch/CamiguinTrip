@@ -181,6 +181,82 @@ margin-top:40px;
 .restaurant-card p{
     margin-top:5px;
 }
+	.food-section{
+    padding:80px 10%;
+    background:linear-gradient(#eef8ff,#ffffff);
+}
+
+.food-section h1{
+    text-align:center;
+    color:#0099cc;
+    font-size:42px;
+}
+
+.subtitle{
+    text-align:center;
+    margin:15px auto 50px;
+    color:#666;
+    max-width:700px;
+}
+
+.food-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:35px;
+}
+
+.food-card{
+    background:rgba(255,255,255,.85);
+    backdrop-filter:blur(15px);
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+    transition:.35s;
+}
+
+.food-card:hover{
+    transform:translateY(-10px);
+}
+
+.food-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.food-content{
+    padding:25px;
+}
+
+.food-content h2{
+    color:#008ccf;
+    margin-bottom:8px;
+}
+
+.type{
+    color:#ff7b00;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.info{
+    margin:18px 0;
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 22px;
+    background:#00AEEF;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#0087c5;
+}
 </style>
 
 </head>
@@ -321,7 +397,18 @@ Katibawasan Falls, Ardent Hot Spring, Sunken Cemetery, and many more attractions
 <h2>Day 2</h2>
 
 <ul>
+<li>White Island</li>
+	<a href="https://maps.google.com/?q=Sunken+Cemetery+Camiguin" target="_blank">
+   	 	<img src="sunken.jpg"
+          	 alt="Sunken"
+         	 class="destination-img">
+	</a>
 <li>Katibawasan Falls</li>
+		<a href="https://maps.google.com/?q=Sunken+Cemetery+Camiguin" target="_blank">
+   	 	<img src="sunken.jpg"
+          	 alt="Sunken"
+         	 class="destination-img">
+	</a>
 <li>Ardent Hot Spring</li>
 <li>Tuasan Falls</li>
 <li>Soda Water Pool</li>
@@ -357,7 +444,105 @@ Katibawasan Falls, Ardent Hot Spring, Sunken Cemetery, and many more attractions
 </div>
 
 </div>
+<section class="food-section">
 
+    <h1>🍽️ Restaurants & Coffee Shops</h1>
+    <p class="subtitle">
+        Discover some of the best places to eat and relax in Mambajao, Camiguin.
+    </p>
+
+    <div class="food-container">
+
+        <!-- Restaurant -->
+        <div class="food-card">
+
+            <img src="ladolce.jpg" alt="La Dolce Vita">
+
+            <div class="food-content">
+
+                <h2>🍕 La Dolce Vita</h2>
+
+                <p class="type">Italian Restaurant</p>
+
+                <p>
+                    Famous for authentic Italian pizza, pasta, and homemade gelato.
+                </p>
+
+                <div class="info">
+                    ⭐ 4.7/5
+                </div>
+
+                <a href="https://maps.google.com/?q=La+Dolce+Vita+Camiguin"
+                   target="_blank"
+                   class="btn">
+                    📍 Google Maps
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Restaurant -->
+        <div class="food-card">
+
+            <img src="guerrera.jpg" alt="Guerrera Restaurant">
+
+            <div class="food-content">
+
+                <h2>🍛 Guerrera Restaurant</h2>
+
+                <p class="type">Filipino Cuisine</p>
+
+                <p>
+                    Popular for local seafood, grilled dishes, and Filipino favorites.
+                </p>
+
+                <div class="info">
+                    ⭐ 4.6/5
+                </div>
+
+                <a href="https://maps.google.com/?q=Guerrera+Restaurant+Camiguin"
+                   target="_blank"
+                   class="btn">
+                    📍 Google Maps
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Coffee Shop -->
+        <div class="food-card">
+
+            <img src="casaroca.jpg" alt="Casa Roca">
+
+            <div class="food-content">
+
+                <h2>☕ Casa Roca Café</h2>
+
+                <p class="type">Coffee & Restaurant</p>
+
+                <p>
+                    A relaxing spot for coffee, desserts, and local meals with scenic views.
+                </p>
+
+                <div class="info">
+                    ⭐ 4.5/5
+                </div>
+
+                <a href="https://maps.google.com/?q=Casa+Roca+Camiguin"
+                   target="_blank"
+                   class="btn">
+                    📍 Google Maps
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 <footer>
 
 <h2>Have a Wonderful Camiguin Adventure!</h2>
