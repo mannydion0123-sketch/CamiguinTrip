@@ -257,6 +257,76 @@ margin-top:40px;
 .btn:hover{
     background:#0087c5;
 }
+	.coffee-section{
+    padding:70px 10%;
+    background:linear-gradient(to bottom,#eef8ff,#ffffff);
+}
+
+.coffee-section h1{
+    text-align:center;
+    color:#0099cc;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:40px;
+}
+
+.coffee-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(330px,1fr));
+    gap:30px;
+}
+
+.coffee-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.coffee-card:hover{
+    transform:translateY(-8px);
+}
+
+.coffee-card img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+}
+
+.coffee-info{
+    padding:25px;
+}
+
+.coffee-info h2{
+    color:#008dcf;
+}
+
+.rating{
+    display:inline-block;
+    margin:10px 0;
+    color:#ff9800;
+    font-weight:bold;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 22px;
+    background:#00AEEF;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#007bb5;
+}
 </style>
 
 </head>
@@ -538,7 +608,70 @@ Katibawasan Falls, Ardent Hot Spring, Sunken Cemetery, and many more attractions
 </div>
 
 </div>
+<section class="coffee-section">
 
+    <h1>☕ Must-Visit Coffee Shops</h1>
+    <p class="subtitle">
+        Relax and enjoy some of the best coffee spots in Camiguin.
+    </p>
+
+    <div class="coffee-container">
+
+        <!-- Hayahay Cafe -->
+        <div class="coffee-card">
+
+            <img src="hayahay.jpg" alt="Hayahay Cafe">
+
+            <div class="coffee-info">
+
+                <h2>☕ Hayahay Café</h2>
+
+                <span class="rating">⭐ 4.6 / 5</span>
+
+                <p>
+                    One of Camiguin's most popular cafés, offering coffee,
+                    breakfast, seafood, and beautiful seaside views.
+                </p>
+
+                <a href="https://maps.google.com/?q=Hayahay+Cafe+Camiguin"
+                   target="_blank"
+                   class="btn">
+                    📍 View on Google Maps
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- CheckPoint -->
+        <div class="coffee-card">
+
+            <img src="checkpoint.jpg" alt="CheckPoint Food Camiguin">
+
+            <div class="coffee-info">
+
+                <h2>☕ CheckPoint Food Camiguin</h2>
+
+                <span class="rating">⭐ 4.1 / 5</span>
+
+                <p>
+                    A popular stop for coffee, snacks, and meals after exploring
+                    Camiguin's attractions.
+                </p>
+
+                <a href="https://maps.google.com/?q=CheckPoint+Food+Camiguin"
+                   target="_blank"
+                   class="btn">
+                    📍 View on Google Maps
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 </div>
 
 </section>
